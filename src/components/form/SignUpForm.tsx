@@ -42,7 +42,7 @@ const SignUpForm = () => {
         });
 
         if (response.ok) {
-            router.push('/sign-in');
+            router.push('/signin');
         } else {
             console.error('Request failed.');
         }
